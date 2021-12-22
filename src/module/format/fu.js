@@ -1,0 +1,105 @@
+require('module-alias/register')
+const {isEmptyStr} = require('@src/module/util')
+const {translate} = require('@src/lib/baidu.api')
+
+/**
+ * 富兰克林宇宙的文件格式检测
+ * @param str
+ * @returns {boolean}
+ */
+function fuCheck(str) {
+    let res = false
+    if (!isEmptyStr(str)) {
+        try {
+            let jsonObj = JSON.parse(str)
+            res = Array.isArray(jsonObj) && jsonObj.length > 0
+        } catch (e) {
+            console.error('当前文本非JSON格式!')
+            console.error(e)
+        }
+    } else {
+        console.warn('当前文本是空的')
+    }
+    return res
+}
+
+/**
+ * 翻译文本
+ * @param str 待翻译文本
+ * @param callback(res) 回调函数 res是json对象,-1表示翻译完成了
+ * @param isCover 是否覆盖 true--覆盖翻译  false--如果之前已经翻译了，就跳过
+ */
+function fuTranslate(str, callback, isCover = false) {
+    const map = {}
+    const map_cn = {}
+    if (fuCheck(str)) {
+        let jsonObj = JSON.parse(str)
+        jsonObj.forEach((json, index) => {
+            if (json['Texts'] && json['Texts']['Eng']) {
+                map[index] = json['Texts']['Eng']
+            }
+            if (json['Texts'] && json['Texts']['Chs']) {
+                map_cn[index] = json['Texts']['Chs']
+            }
+        })
+    }
+    if (isCover) {
+        doTranslate(map, callback)
+    } else {
+        if (Object.keys(map_cn).length === Object.keys(map).length) {
+            if (typeof callback === 'function') {
+                callback(-1)
+            }
+        } else {
+            doTranslate(map, callback)
+        }
+    }
+}
+
+function doTranslate(map, callback) {
+    console.log('发现待翻译文本:')
+    console.log(map)
+    translate(convertQryMap(map), ({trans_result}) => {
+        if (typeof callback === 'function') {
+            callback(trans_result)
+        }
+    })
+}
+
+function convertQryMap(map) {
+    let res = ''
+    Object.keys(map).forEach((key, index, keys) => {
+        res += map[key]
+        if (index !== keys.length - 1) {
+            res += '\n'
+        }
+    })
+    console.log("请求参数合成结果:")
+    console.log(res)
+    return res;
+}
+
+/**
+ * 重组翻译前的对象
+ * @param srcObj
+ * @param resObj
+ * @param isCover 是否覆盖 true--覆盖翻译  false--如果之前已经翻译了，就跳过
+ */
+function fuRegroup(srcObj, resObj, isCover = false) {
+    srcObj.forEach((src, i) => {
+        if (src['Texts'] && src['Texts']['Eng'] === resObj[i]['src']) {
+            if (isCover === true) {
+                src['Texts']['Chs'] = resObj[i]['dst']
+            } else {
+                if (!src['Texts']['Chs']) {
+                    src['Texts']['Chs'] = resObj[i]['dst']
+                }
+            }
+        }
+    })
+}
+
+module.exports = {
+    fuTranslate,
+    fuRegroup
+}

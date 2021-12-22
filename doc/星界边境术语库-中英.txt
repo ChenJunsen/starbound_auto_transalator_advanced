@@ -1,0 +1,281 @@
+凯文 桑萨塔克|||Kevin Sanchatak
+格雷格|||Greg
+德雷克|||Dereck
+卡尔，帽子爱好者|||Carl,the hat enthusiast
+莱斯利博士|||Dr. Lesley
+尼尔森博士|||Dr. Nilson
+维纳利斯|||Vinalisj
+赛迪西克斯|||Xiticix
+史蒂夫|||Steve
+麦克雷迪|||MacReady
+霍莉丝|||Holix
+阿克希娜|||Axiena
+贝拉|||Bella
+硅宾|||SILENES
+泽尔迪亚|||Zeldia
+岚|||Ran
+戴夫|||Dave
+奥拉纳|||Orana
+唯一者|||The One
+尼克斯大浩劫|||Nikos Point disaster
+卡拉啤酒|||Kahla Tankarad
+阿克恩|||ArCon
+法夫|||Fife
+瓦伊|||Vai
+德拉瓦伊|||Daravai
+泰克|||Tek
+CySol的私人娱乐网络|||CySol's private entertainment network
+阿兹瑞尔工业|||Azriel Industries
+水手凯尔普|||Sailor Kelp
+阿克洛吉斯|||arcologies
+科泰克星云|||Kortakk nebula
+新科公司|||SinCo
+反异界|||Anti-Realm
+德拉克|||Drakaet
+派克瑞特|||Pykrete
+修格斯|||Shoggoth
+铜矿石|||Copper Ore
+铜锭|||Copper Bar
+铁矿石|||Iron Ore
+铁锭|||Iron Bar
+银矿石|||Silver Ore
+银锭|||Silver Bar
+金矿石|||Gold Ore
+金锭|||Gold Bar
+钨矿石|||Tungsten Ore
+钨锭|||Tungsten Bar
+钛矿石|||Titanium Ore
+钛锭|||Titanium Bar
+耐钢矿|||Durasteel Ore
+耐钢锭|||DuraSteel Bar
+霓磷盐矿|||Aegisalt Ore
+精炼霓磷盐|||Refined Aegisalt
+维奥合金矿|||Violium Ore
+精炼维奥合金|||Refined Violium
+菲洛合金矿|||Ferozium Ore
+精炼菲洛合金|||Refined Ferozium
+日耀石矿|||Solarium Ore
+精炼日耀石|||Refined Solarium
+星核碎片|||Core Fragment Ore
+水晶|||Crystal
+钻石|||Diamond
+冰晶体|||Ice crystal
+硫磺|||Sulphur
+碳|||Carbon
+碳板|||Carbon Plate
+黑檀石碎片|||Ebon Shard
+琥珀块|||Amber Chunk
+闪银石|||sivite
+天蓝石|||lazulite
+心印石|||Koanite
+佩格拉希合金|||Peglaci Alloy
+特勒贝晶体碎片|||Telebrium
+特勒贝晶体|||Telebrium Bar
+月晶碎片|||Lunari Shard
+月晶|||Lunari Crystal
+镭矿|||Irradium Ore
+镭锭|||Irradium Bar
+混乱原生质|||Lasombrium
+混乱原生质之种|||Lasombrium Seed
+高熔点矿|||Zerchesium
+原体矿|||Protocite Ore
+半影矿|||Penumbrite Ore
+半影碎片|||Penumbrite Shard
+棱镜碎片|||Prisillite Ore
+棱镜之星|||Prisillite Star
+原力矿|||Trianglium
+原力棱锥|||Trianglium Pyramid
+寂灭矿|||Quietus Ore
+寂灭锭|||Quietus Bar
+寒霜矿|||Isogen Ore
+寒霜锭|||Isogen Bar
+永燃矿|||Pyreite Ore
+永燃锭|||Pyreite Bar
+赛德瑞瑟晶体碎片|||Xithricite Ore
+赛德瑞瑟晶体|||Xithricite
+幻影矿|||Effigium Ore
+幻影锭|||Effigium Bar
+超致密矿|||Densinium Ore
+超致密锭|||Densinium Bar
+诺克原石|||Raw Nocxium
+诺克石锭|||Nocxium Bar
+异极合金|||Morphite
+异极合金锭|||Morphite Bar
+高级合金|||Advanced Alloy
+超钛锭|||Tritanium Bar
+致密合金|||Dense Alloy
+阳清合金|||Aetherium Alloy
+钚|||Plutonium Ore
+钚棒|||Plutonium Rod
+铀|||Uranium Ore
+铀棒|||Uranium Rod
+氘棒|||Deuterium
+氚棒|||Tritium
+浓缩钚棒|||Enriched Plutonium
+浓缩铀棒|||Enriched Uranium
+镎|||Neptunium
+钍|||Thorium
+奥创棒|||Ultronium
+中子素|||Neutronium
+反中子素|||Anti-Neutronium
+天使石水晶|||Angelite Crystal
+欧普尔水晶|||Opul Crystal
+艾米拉水晶|||Emera Crystal
+菲亚水晶|||Feya Crystal
+柯斯帕水晶|||Kespar Crystal
+大洋石水晶|||Oceanite Crystal
+瑞吉特水晶|||Rekite Crystal
+心叶石水晶|||Thantite Crystal
+纳德|||Nhydri
+铜矿石|||Copper Ore
+铜锭|||Copper Bar
+铁矿石|||Iron Ore
+铁锭|||Iron Bar
+银矿石|||Silver Ore
+银锭|||Silver Bar
+金矿石|||Gold Ore
+金锭|||Gold Bar
+钨矿石|||Tungsten Ore
+钨锭|||Tungsten Bar
+钛矿石|||Titanium Ore
+钛锭|||Titanium Bar
+耐钢矿|||Durasteel Ore
+耐钢锭|||DuraSteel Bar
+霓磷盐矿|||Aegisalt Ore
+精炼霓磷盐|||Refined Aegisalt
+维奥合金矿|||Violium Ore
+精炼维奥合金|||Refined Violium
+菲洛合金矿|||Ferozium Ore
+精炼菲洛合金|||Refined Ferozium
+日耀石矿|||Solarium Ore
+精炼日耀石|||Refined Solarium
+星核碎片|||Core Fragment Ore
+水晶|||Crystal
+钻石|||Diamond
+冰晶体|||Ice crystal
+硫磺|||Sulphur
+碳|||Carbon
+碳板|||Carbon Plate
+黑檀石碎片|||Ebon Shard
+琥珀块|||Amber Chunk
+闪银石|||sivite
+天蓝石|||lazulite
+心印石|||Koanite
+佩格拉希合金|||Peglaci Alloy
+特勒贝晶体碎片|||Telebrium
+特勒贝晶体|||Telebrium Bar
+月晶碎片|||Lunari Shard
+月晶|||Lunari Crystal
+镭矿|||Irradium Ore
+镭锭|||Irradium Bar
+混乱原生质|||Lasombrium
+混乱原生质之种|||Lasombrium Seed
+高熔点矿|||Zerchesium
+高熔点锭|||Zerchesium Bar
+原体矿|||Protocite Ore
+原体锭|||Protocite Bar
+半影矿|||Penumbrite Ore
+半影碎片|||Penumbrite Shard
+棱镜碎片|||Prisillite Ore
+棱镜之星|||Prisillite Star
+原力矿|||Trianglium
+原力棱锥|||Trianglium Pyramid
+寂灭矿|||Quietus Ore
+寂灭锭|||Quietus Bar
+寒霜矿|||Isogen Ore
+寒霜锭|||Isogen Bar
+永燃矿|||Pyreite Ore
+永燃锭|||Pyreite Bar
+赛德瑞瑟晶体碎片|||Xithricite Ore
+赛德瑞瑟晶体|||Xithricite
+幻影矿|||Effigium Ore
+幻影锭|||Effigium Bar
+超致密矿|||Densinium Ore
+超致密锭|||Densinium Bar
+诺克原石|||Raw Nocxium
+诺克石锭|||Nocxium Bar
+异极合金|||Morphite
+异极合金锭|||Morphite Bar
+高级合金|||Advanced Alloy
+超钛锭|||Tritanium Bar
+致密合金|||Dense Alloy
+阳清合金|||Aetherium Alloy
+钚|||Plutonium Ore
+钚棒|||Plutonium Rod
+铀|||Uranium Ore
+铀棒|||Uranium Rod
+氘棒|||Deuterium
+氚棒|||Tritium
+浓缩钚棒|||Enriched Plutonium
+浓缩铀棒|||Enriched Uranium
+镎|||Neptunium
+钍|||Thorium
+奥创棒|||Ultronium
+中子素|||Neutronium
+反中子素|||Anti-Neutronium
+天使石水晶|||Angelite Crystal
+欧普尔水晶|||Opul Crystal
+艾米拉水晶|||Emera Crystal
+菲亚水晶|||Feya Crystal
+柯斯帕水晶|||Kespar Crystal
+大洋石水晶|||Oceanite Crystal
+瑞吉特水晶|||Rekite Crystal
+心叶石水晶|||Thantite Crystal
+纳德|||Nhydri
+水|||Water
+生命之泉|||Healing Water
+岩浆|||Lav
+咖啡|||Liquid Coffee
+椰奶|||Milk
+油|||Oil
+毒液|||Poison Water
+黏液|||Slime
+沼泽水|||Swamp Water
+厄尔吉斯液态燃料|||liquid fuel
+外星汁液|||Alien Juice
+腐化之水|||Dark Water
+汞|||Mercury
+纯蜂蜜|||Pure Honey
+氦-3|||Helium-3
+以太|||Aether
+纯啤酒|||Beer
+生物软泥|||Bio-Ooze
+焦油|||Black Tar
+血液|||Blood
+液化水晶|||Liquified Crystal
+液态氘|||Liquid Deuterium
+远古液|||Elder Fluid
+重力液体|||Grav-Liquid
+橙色重力液体|||Orange Grav-Liquid
+液态铁|||Liquid Iron
+液态镭|||Liquid Irradium
+液态汞|||Liquid Mercury
+液态金属氢|||Liquid Metallic Hydrogen
+液氮|||Liquid Nitrogen
+有机液|||Organic Soup
+脓液|||Pus
+硫酸|||Sulphuric Acid
+污染水|||Contaminated Water
+暗影气体|||Shadow Gas
+原体液|||Liquid Protocite
+甲虫族|||Mantizi
+叶族人|||Floran
+翼族|||Avali
+瑞登|||Radien
+鼠人|||Kirhos
+佩格拉希族|||Peglaci
+甲虫人|||Mantis
+影裔|||Shadow
+厄修安龙人|||Eld'uukhar
+蚁族|||Thelusian
+夏维克族|||Xarwiek
+影族|||Tenebrhae
+星之子|||Anodyne
+梦比斯族|||Myphis
+伊库族|||Izku
+史莱姆|||slimeperson
+夜族|||Nightar
+先驱者|||Precursor
+蜘蛛机器人|||spiderdroid
+鲛人|||Hylotls
+猿族|||Apex
