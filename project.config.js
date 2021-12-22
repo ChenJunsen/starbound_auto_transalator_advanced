@@ -2,12 +2,12 @@
  * 百度翻译api的key
  * @type {string}
  */
-const BD_TRANSLATE_KEY = 'Wt6XUACspEJdh4qX3v8Q'
+const BD_TRANSLATE_KEY = ''
 /**
  * 百度翻译的api的appid
  * @type {string}
  */
-const BD_TRANSLATE_APP_ID = '20210916000945338'
+const BD_TRANSLATE_APP_ID = ''
 /**
  * 翻译的文件与文件之间的延迟，过于频繁会导致api调用失败
  * @type {number} 毫秒
