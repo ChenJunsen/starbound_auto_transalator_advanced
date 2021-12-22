@@ -9,7 +9,7 @@
 只需一个简单指令，就能自动翻译指定目录下的所有文件
 # 使用教程
 ## 一、注册百度翻译账号，获取key和appid
-可以参照之前的[半自动翻译教程](https://blog.csdn.net/cjs1534717040/article/details/121515009)
+可以参照之前的[半自动翻译教程](https://github.com/ChenJunsen/StarboundAutoTranslator)
 
 ## 二、安装配置node
 ### 1、下载安装包
@@ -71,7 +71,7 @@ const TRANSLATE_COVER = false
  */
 const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project\\translations\\texts\\objects\\mantizi'
 ```
-相关配置如上所述，需要注意的是TARGET_PATH这个目标源目录，windows下的文件分隔符是\\,并且填入的时候,要加入转义字符，也就是两根反斜杠。
+相关配置如上所述，需要注意的是前两项为百度翻译的Key和Appid,TARGET_PATH这个目标源目录，windows下的文件分隔符是\\,并且填入的时候,要加入转义字符，也就是两根反斜杠。
 
 至此，项目配置就算完毕，接下来就是进行翻译指令了。
 
