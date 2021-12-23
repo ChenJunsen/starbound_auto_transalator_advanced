@@ -76,10 +76,11 @@ const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project\\t
 至此，项目配置就算完毕，接下来就是进行翻译指令了。
 
 ## 三、执行翻译
-windows系统下以管理员模式双击start.bat即可开始翻译，其他系统自行进入src目录执行
+我们需要执行的是src文件夹下面的exe.js文件，所以可以先cd进src目录，再运行node指令
 
 ```bash
-node .\exe.js
+PS G:\workspace\StarBound\starbound_auto_transalator_advanced> cd .\src\
+PS G:\workspace\StarBound\starbound_auto_transalator_advanced\src> node .\exe.js
 ```
 以上面的**TARGET_PATH**的文件为例，执行这个指令后会出现
 

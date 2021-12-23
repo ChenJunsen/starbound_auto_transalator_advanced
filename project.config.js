@@ -22,7 +22,7 @@ const TRANSLATE_COVER = false
  * 翻译的目标源目录
  * @type {string}
  */
-const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project\\translations\\texts\\objects\\mantizi'
+const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project\\translations\\texts\\objects\\mantizi2'
 
 module.exports = {
     BD_TRANSLATE_KEY,
