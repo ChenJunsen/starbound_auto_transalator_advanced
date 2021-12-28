@@ -279,3 +279,4 @@ Izku|||伊库族
 spiderdroid|||蜘蛛机器人
 Apex|||猿族
 Hylotls|||鲛人
+Precursor|||先驱
