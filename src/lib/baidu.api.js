@@ -1,6 +1,6 @@
 require('module-alias/register')
 const request = require('request')
-const {BD_TRANSLATE_KEY, BD_TRANSLATE_APP_ID} = require('@root/project.config')
+const {BD_TRANSLATE_KEY, BD_TRANSLATE_APP_ID, BD_TRANSLATE_USE_DICT} = require('@root/project.config')
 const TRANSLATE_URL = 'http://api.fanyi.baidu.com/api/trans/vip/translate'
 const MD5 = require('./md5')
 
@@ -23,6 +23,7 @@ function translate(query, callback) {
     request.post({
         url: TRANSLATE_URL,
         form: {
+            action: BD_TRANSLATE_USE_DICT ? '1' : '',
             q: query,
             appid: BD_TRANSLATE_APP_ID,
             salt: salt,
@@ -36,7 +37,7 @@ function translate(query, callback) {
             console.error(err)
         } else {
             if (typeof callback === 'function') {
-                const result=JSON.parse(body)
+                const result = JSON.parse(body)
                 callback(result)
             }
         }
