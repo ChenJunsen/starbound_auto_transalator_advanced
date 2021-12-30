@@ -281,5 +281,7 @@ Apex|||猿族
 Hylotl|||鲛人
 Precursor|||先驱
 Avian|||翼族
-Frontier|||前沿
+Frontier|||边境
 Novakid|||新星小子
+Miniknog|||科技发展部
+Mooshi|||穆什族
