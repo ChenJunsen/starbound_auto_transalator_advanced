@@ -285,3 +285,4 @@ Frontier|||边境
 Novakid|||新星小子
 Miniknog|||科技发展部
 Mooshi|||穆什族
+Peacekeeper|||和平卫士
