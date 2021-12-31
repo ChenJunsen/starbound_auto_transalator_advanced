@@ -267,3 +267,6 @@ A large decorative glazed vase.
 ![术语库](https://img-blog.csdnimg.cn/660d4062827f4b1090fe6baf135227e6.png#pic_center)
 在[百度翻译平台](https://api.fanyi.baidu.com/manage/term)可以配置
 ![配置术语库](https://img-blog.csdnimg.cn/a1f1c4e9e8b349acb81b6d90204d2b81.png#pic_center)
+
+## 五、最重要的一点
+术语库的操作会最大限度提升翻译精确度，但是机器是没有感情的，翻译完后，一定要挨个校对一下
