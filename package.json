@@ -15,9 +15,11 @@
   "_moduleAliases": {
     "@root": ".",
     "@src": "./src",
-    "@text": "./text"
+    "@text": "./text",
+    "@doc": "./doc"
   },
   "dependencies": {
+    "json5": "^2.2.0",
     "module-alias": "^2.2.2",
     "request": "^2.88.2"
   }
