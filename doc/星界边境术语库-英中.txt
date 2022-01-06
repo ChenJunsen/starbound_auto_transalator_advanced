@@ -263,7 +263,7 @@ Floran|||叶族人
 Avali|||翼族
 Radien|||瑞登
 Mantis|||甲虫人
-Peglaci|||佩格拉希族
+Peglaci|||企鹅
 Shadow|||影裔
 Eld'uukhar|||厄修安龙人
 Thelusian|||蚁族
@@ -286,3 +286,14 @@ Novakid|||新星小子
 Miniknog|||科技发展部
 Mooshi|||穆什族
 Peacekeeper|||和平卫士
+Spawner|||生蛋机
+fluffalo|||蓬蓬牛
+fennix|||菲狐
+ixoling|||死亡执行者
+lilodon|||鲨狗
+mooshi|||哞哞牛
+petricub|||石油鬼
+Poptop|||吐舌娃
+quagmutt|||沼泽犬
+Snuffish|||灯芯鱼
+Sporgus|||双头菇
