@@ -270,3 +270,8 @@ A large decorative glazed vase.
 
 ## 五、最重要的一点
 术语库的操作会最大限度提升翻译精确度，但是机器是没有感情的，翻译完后，一定要挨个校对一下
+
+## 六、change log
+### 2022.01.06->v1.1.0
+- 1、支持单个文件翻译，只需修改project.config.js的TARGET_PATH为单个文件路径即可
+- 2、优化了类似^orange;的翻译，现在会跳过这些翻译
