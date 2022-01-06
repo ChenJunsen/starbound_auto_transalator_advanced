@@ -66,10 +66,16 @@ function doTranslate(map, callback) {
     })
 }
 
+/**
+ * 将参数转换为百度翻译api能接受的参数
+ * @param map
+ * @returns {string} 由于百度api是要求所有个体参数以\n拼接，但是如果个体参数中存在\n，就会导致翻译返回的数组长度错位，进而会让重组失败
+ * 因此，这里的做法就是在拼接时将个体参数中的\n转换为一个翻译保留字符，比如<>，翻译完后，再将<>还原为\n
+ */
 function convertQryMap(map) {
     let res = ''
     Object.keys(map).forEach((key, index, keys) => {
-        res += map[key]
+        res += map[key].replace(/\n/g, '<>')//替换个体参数里面的\n
         if (index !== keys.length - 1) {
             res += '\n'
         }
@@ -87,12 +93,14 @@ function convertQryMap(map) {
  */
 function fuRegroup(srcObj, resObj, isCover = false) {
     srcObj.forEach((src, i) => {
-        if (src['Texts'] && src['Texts']['Eng'] === resObj[i]['src']) {
+        //类比时，要考虑还原src和dst中的<>为\n
+        if (src['Texts'] && resObj[i]['src'] && src['Texts']['Eng'] === resObj[i]['src'].replace(/<>/g, '\n')) {
+            const resDst = resObj[i]['dst'].replace(/<>/g, '\n')
             if (isCover === true) {
-                src['Texts']['Chs'] = resObj[i]['dst']
+                src['Texts']['Chs'] = resDst
             } else {
                 if (!src['Texts']['Chs']) {
-                    src['Texts']['Chs'] = resObj[i]['dst']
+                    src['Texts']['Chs'] = resDst
                 }
             }
         }
