@@ -1,21 +1,7 @@
 /*术语库转换脚本 将中英转换为英中*/
-
+require('module-alias/register')
+const {readFileToArr} =require('@src/module/file')
 const fs = require('fs')
-const readline = require('readline')
-
-function readFileToArr(fReadName, callback) {
-    let fRead = fs.createReadStream(fReadName);
-    let objReadline = readline.createInterface({
-        input: fRead
-    });
-    let arr = new Array();
-    objReadline.on('line', line => {
-        arr.push(line);
-    });
-    objReadline.on('close', () => {
-        callback(arr);
-    });
-}
 
 /**
  * 中英转英中
