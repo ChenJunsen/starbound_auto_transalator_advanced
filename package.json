@@ -1,6 +1,6 @@
 {
   "name": "starbound_auto_transalator_advanced",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An auto text translator for Starbound game.",
   "main": "index.js",
   "scripts": {
