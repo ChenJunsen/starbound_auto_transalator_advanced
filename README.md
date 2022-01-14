@@ -275,3 +275,6 @@ A large decorative glazed vase.
 ### 2022.01.06->v1.1.0
 - 1、支持单个文件翻译，只需修改project.config.js的TARGET_PATH为单个文件路径即可
 - 2、优化了类似^orange;的翻译，现在会跳过这些翻译
+
+### 2022.01.14->v1.1.1
+- 控制台打印支持彩色文字显示

@@ -1,3 +1,5 @@
+require('module-alias/register')
+const L = require('L')
 const {TARGET_PATH} = require('../project.config')
-console.log('待翻译源文件目录:')
-console.log(TARGET_PATH)
+L.i('待翻译源文件目录:')
+L.rainbow(TARGET_PATH)

@@ -1,6 +1,8 @@
 require('module-alias/register')
+const L = require('L')
 const {isEmptyStr} = require('@src/module/util')
 const {translate} = require('@src/lib/baidu.api')
+require('colors')
 
 /**
  * 富兰克林宇宙的文件格式检测
@@ -14,11 +16,11 @@ function fuCheck(str) {
             let jsonObj = JSON.parse(str)
             res = Array.isArray(jsonObj) && jsonObj.length > 0
         } catch (e) {
-            console.error('当前文本非JSON格式!')
-            console.error(e)
+            L.e('当前文本非JSON格式!')
+            L.e(e)
         }
     } else {
-        console.warn('当前文本是空的')
+        L.w('当前文本是空的')
     }
     return res
 }
@@ -57,8 +59,8 @@ function fuTranslate(str, callback, isCover = false) {
 }
 
 function doTranslate(map, callback) {
-    console.log('发现待翻译文本:')
-    console.log(map)
+    L.i('发现待翻译文本:')
+    L.i(JSON.stringify(map,null,2))
     translate(convertQryMap(map), ({trans_result}) => {
         if (typeof callback === 'function') {
             callback(trans_result)
@@ -80,8 +82,8 @@ function convertQryMap(map) {
             res += '\n'
         }
     })
-    console.log("请求参数合成结果:")
-    console.log(res)
+    L.d("请求参数合成结果:")
+    L.d(res)
     return res;
 }
 
