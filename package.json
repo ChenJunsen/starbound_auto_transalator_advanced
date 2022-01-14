@@ -16,9 +16,11 @@
     "@root": ".",
     "@src": "./src",
     "@text": "./text",
-    "@doc": "./doc"
+    "@doc": "./doc",
+    "L": "./src/module/L"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "json5": "^2.2.0",
     "module-alias": "^2.2.2",
     "request": "^2.88.2"
