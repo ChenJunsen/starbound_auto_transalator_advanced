@@ -280,7 +280,7 @@ spiderdroid|||蜘蛛机器人
 Apex|||猿族
 Hylotl|||鲛人
 Precursor|||先驱
-Avian|||翼族
+Avian|||阿维昂人
 Frontier|||边境
 Novakid|||新星小子
 Miniknog|||科技发展部
@@ -319,3 +319,4 @@ Pyreite|||永燃
 Protectorate|||大地守护团
 Vel'uuish|||灵猫族
 Skath|||绘世者
+Avolite|||埃沃利特
