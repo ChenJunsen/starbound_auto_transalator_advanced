@@ -96,7 +96,7 @@ function convertQryMap(map) {
 function fuRegroup(srcObj, resObj, isCover = false) {
     srcObj.forEach((src, i) => {
         //类比时，要考虑还原src和dst中的<>为\n
-        if (src['Texts'] && resObj[i]['src'] && src['Texts']['Eng'] === resObj[i]['src'].replace(/<>/g, '\n')) {
+        if (src['Texts'] && resObj[i] && resObj[i]['src'] && src['Texts']['Eng'] === resObj[i]['src'].replace(/<>/g, '\n')) {
             const resDst = resObj[i]['dst'].replace(/<>/g, '\n')
             if (isCover === true) {
                 src['Texts']['Chs'] = resDst
