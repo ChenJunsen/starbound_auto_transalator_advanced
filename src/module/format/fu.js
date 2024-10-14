@@ -94,6 +94,9 @@ function convertQryMap(map) {
  * @param isCover 是否覆盖 true--覆盖翻译  false--如果之前已经翻译了，就跳过
  */
 function fuRegroup(srcObj, resObj, isCover = false) {
+    if(!resObj){
+        L.e('翻译异常了，休息一会儿重来！')
+    }
     srcObj.forEach((src, i) => {
         //类比时，要考虑还原src和dst中的<>为\n
         if (src['Texts'] && resObj[i] && resObj[i]['src'] && src['Texts']['Eng'] === resObj[i]['src'].replace(/<>/g, '\n')) {
