@@ -24,10 +24,11 @@ const TRANSLATE_DELAY = 5000
  */
 const TRANSLATE_COVER = false
 /**
- * 翻译的目标源目录
+ * 翻译的目标源目录(也可以是单个文件的相对或者绝对路径)
  * @type {string}
  */
-const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project\\translations\\texts\\objects\\novakid'
+const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project\\translations\\texts\\objects\\xithricite'
+// const TARGET_PATH='G:\\workspace\\StarBound\\FrackinUniverse-sChinese-Project-5.6.4271\\translations\\texts\\codex'
 
 module.exports = {
     BD_TRANSLATE_KEY,
