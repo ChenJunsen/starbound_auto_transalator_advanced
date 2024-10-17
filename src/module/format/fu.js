@@ -89,7 +89,7 @@ function doTranslate(map, callback) {
 function convertQryMap(map) {
   let res = ''
   Object.keys(map).forEach((key, index, keys) => {
-    res += map[key].replace(/\n/g, 'CJS翻译')//替换个体参数里面的\n
+    res += map[key].replace(/\n/g, 'CJS__')//替换个体参数里面的\n
     if (index !== keys.length - 1) {
       res += '\n'
     }
@@ -109,15 +109,18 @@ function convertQryMap(map) {
 function fuRegroup(srcObj, resObj, isCover = false, isCoverIfChsEqEng) {
   if (!resObj) {
     L.e('翻译异常了，休息一会儿重来！')
+    return
   }
   srcObj.forEach((src, i) => {
     //类比时，要考虑还原src和dst中的<>为\n
-    if (src['Texts'] && resObj[i] && resObj[i]['src'] && src['Texts']['Eng'] === resObj[i]['src'].replace(/CJS翻译/g, '\n')) {
-      const resDst = resObj[i]['dst'].replace(/CJS翻译/g, '\n')
+    if (src['Texts'] && resObj[i] && resObj[i]['src'] && src['Texts']['Eng'].trim() === resObj[i]['src'].trim().replace(/CJS__/g, '\n')) {
+      const resDst = resObj[i]['dst'].trim().replace(/CJS__/g, '\n')
       if (isCover === true) {
+        L.d('覆盖翻译')
         src['Texts']['Chs'] = resDst
       } else {
         if (!src['Texts']['Chs']) {
+          L.d('当前字段不含中文标签')
           src['Texts']['Chs'] = resDst
         } else {
           if (isCoverIfChsEqEng && src['Texts']['Chs'] === src['Texts']['Eng']) {
