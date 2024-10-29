@@ -9,6 +9,16 @@ const { isEmptyStr } = require('@src/module/util')
  * @type {string}
  */
 const PATH_INPUT = "G:\\workspace\\StarBound\\FrackinUniverse\\biomes\\oredistributions.configfunctions.patch"
+/**
+ * 最大出现率
+ * @type {number}
+ */
+const RARITY_MAX = 1.5
+/**
+ * 最小出现率
+ * @type {number}
+ */
+const RARITY_MIN = 0.1
 
 /**
  * 稀有矿提升倍率
@@ -89,9 +99,8 @@ function exec() {
 
 const replaceRule = (rarity, rareMultiple) => {
   let val = Number((rarity * rareMultiple).toFixed(2))
-  if (val && val < 0.1) { // 如果原来在在该层设置了值，且该值大于0并且小于0.1，则全部设置为0.1的掉率
-    val = 0.1
-  }
+  val = Math.max(val, RARITY_MIN)
+  val = Math.min(val, RARITY_MAX)
   return val
 }
 
